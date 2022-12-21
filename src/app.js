@@ -4,6 +4,7 @@ const hbs=require('hbs')
 const geocode=require('./utils/geocode')
 const forcast=require('./utils/forcast')
 
+
 const app=express()
 const port=process.env.PORT || 3000
 //Define paths for Express config
@@ -87,7 +88,7 @@ app.get('*',(req,res)=>{
     res.render('404',{
        title:'404',
        name:'Pradhumn Pande',
-       errorMessage:'Page not found'
+       errorMessage:'Page not found. Try different Page!'
     })
 })
 app.listen(port,()=>{

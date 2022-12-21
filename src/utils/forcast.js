@@ -16,7 +16,7 @@ const forcast=(latitude,longitude,callback)=>{
                     // temperature:response.body.current.temperature,
                     // feelslike:response.body.current.feelslike,
                     // At_Time:response.body.current.observation_time
-                    body.current.weather_descriptions+' .It is currently '+body.current.temperature+' degrees out. It feels like '+body.current.feelslike+' degrees. At '+body.current.observation_time
+                    body.current.weather_descriptions+' .It is currently '+body.current.temperature+' degrees out.It feels like '+body.current.feelslike+' degrees.At '+body.current.observation_time
                 )
             }
     })

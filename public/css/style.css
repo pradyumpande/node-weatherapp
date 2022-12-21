@@ -7,13 +7,13 @@ body {
     display:flex;
    flex-direction: column;
    min-height: 100vh;
+   margin-right: 200px;
+   margin-left: 200px;
 }
 .main-content{
     flex-grow: 1;
 }
-p#description{
-    margin-left: 40px;
-}
+
 footer{
    color: #843c3c;
    border-top: 2px solid #eeeeee;
@@ -37,8 +37,17 @@ header a{
     text-decoration: none;
     margin-left: 40px;
 }
+header a:hover{
+    color: black;
+}
 .portrait{
     width: 250px;
+}
+.aboutme{
+    color: #843c3c;
+    font-style:  arial;
+    padding-top: 20px;
+
 }
 input{
     border: 1px solid #cccccc;
@@ -49,9 +58,13 @@ input{
 button{
     cursor: pointer;
     border: 1px solid #888888;
-    background: #888888;
-    color: white;
+    
+    color: rgb(14, 13, 13);
     padding: 8px;
     border-radius: 10px;
    margin-left: 10px;
+}
+button:hover{
+    border: 2px solid black;
+    
 }
