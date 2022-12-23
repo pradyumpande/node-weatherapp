@@ -1,5 +1,5 @@
 # Weather-Application
-###### Weather webpage with geocode and weathr api. And backend with NodeJs.
+###### Weather webpage with geocode and weather API. And backend with NodeJs.
 
 
 
