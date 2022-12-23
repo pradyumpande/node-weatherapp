@@ -1,5 +1,5 @@
 # Weather-Application
 ###### Weather webpage with geocode and weather API. And backend with NodeJs.
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![Preview image of page](/public/image/Web capture_22-12-2022_05220_localhost.jpeg)
 
 
